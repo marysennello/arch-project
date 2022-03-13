@@ -264,7 +264,7 @@ margin-right: auto;
 .staff img {
    display: block;
    width: 100%;
-   max-width: 175px; /*actual image width*/
+   max-width: 125px; /*actual image width*/
    height: auto; /* maintain aspect ratio*/
    margin: auto; /*optional centering of image*/
 }
