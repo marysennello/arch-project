@@ -254,7 +254,8 @@ width: 31%;
 background-color: #03a3df;
 color: #ffffff;
 padding: 1em;
-padding-left: 1.25em;
+object-fit: contain;
+object-position: center;
 }
 
 }
