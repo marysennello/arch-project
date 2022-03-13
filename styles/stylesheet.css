@@ -251,13 +251,16 @@ h1 {
   align-content: center;
 }
 .staff {
-width: 30%;
+width: 31%;
 background-color: #03a3df;
 color: #ffffff;
 padding: 1em;
 align-items: flex-start;
 }
-
+div.staff > img {
+  width: 200px;
+  object-fit: scale-down;
+}
 h4 {
 text-align: center;
 border-bottom: .5em solid #444444;
