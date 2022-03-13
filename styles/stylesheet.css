@@ -244,8 +244,8 @@ h1 {
 .container-staff {
   display: flex;
   flex-direction: row;
-  width: 100%;
-  flex-wrap: nowrap;
+  width: 93%;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 .staff {
