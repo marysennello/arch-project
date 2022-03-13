@@ -255,11 +255,18 @@ width: 31%;
 background-color: #03a3df;
 color: #ffffff;
 padding: 1em;
-align-items: flex-start;
+/*align-items: center;*/
+justify-content: center;
+margin-left: auto;
+margin-right: auto;
 }
-div.staff > img {
-  width: 200px;
-  object-fit: scale-down;
+
+.staff img {
+   display: block;
+   width: 100%;
+   max-width: 175px; /*actual image width*/
+   height: auto; /* maintain aspect ratio*/
+   margin: auto; /*optional centering of image*/
 }
 h4 {
 text-align: center;
