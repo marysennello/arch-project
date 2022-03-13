@@ -20,7 +20,7 @@ nav {
   text-align: right;
   color: #FFFFFF;
 }
-nav > p > a {
+nav > div > p > a {
   color: #FFFFFF;
   font-weight: bold;
 }
@@ -40,11 +40,11 @@ nav > p > a {
 .header-grid {
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-rows; min-height: 10rem;
+  grid-template-rows: auto auto;
 }
 .header1 {
   grid-column: 1;
-  grid-row: 1/span 2;
+  grid-row: 1/span2;
 }
 .header2 {
   grid-column: 2;
@@ -88,7 +88,7 @@ article {
 }
 .services{
   grid-column: 1;
-  grid row: 1/span 2;
+  grid-row: 1/span 2;
   background-color: #1b447f;
   border: .5rem solid #ecb722;
 }
@@ -126,8 +126,8 @@ footer {
 .footer-grid {
   clear: both;
   display: grid;
-  grid-template-columns: 3;
-  grid-template-rows: 1;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
 }
 .footer1 {
   grid-column: 1;
@@ -206,7 +206,7 @@ h1 {
 .about-grid{
   display: grid;
   grid-template-columns:7fr 3fr;
-  grid-template-rows: 2;
+  grid-template-rows: 1fr 1fr;
   margin-top: .5rem;
   grid-gap: .5rem;
   margin-bottom: 0.5rem;
@@ -214,7 +214,7 @@ h1 {
 }
 .aside-about{
   grid-column-start: 2;
-  grid-column-end: 11;
+  grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 2;
   background-color: #444444;
