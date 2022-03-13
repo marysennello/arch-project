@@ -65,7 +65,6 @@ li {
   margin-left: -1em;
   margin-right: 1em;
 }
-
 .services-grid {
   display: grid;
   grid-template-columns:7fr 3fr;
@@ -75,7 +74,6 @@ li {
   grid-gap: .5rem;
   justify-content: center;
 }
-
 .aside {
   grid-column-start: 2;
   grid-row-start: 1;
@@ -84,7 +82,6 @@ li {
 article {
   margin-left: 0rem;
   padding: 1rem;
-  border: .5rem solid #ecb722;
 }
 .white {
   color: #ffffff;
@@ -93,6 +90,7 @@ article {
   grid-column: 1;
   grid row: 1/span 2;
   background-color: #1b447f;
+  border: .5rem solid #ecb722;
 }
 .lessons {
   grid-column: 1;
@@ -105,7 +103,6 @@ article {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
-  align-items: space-between;
 }
 .box {
   margin: 1rem;
@@ -146,6 +143,10 @@ footer {
   grid-row: 1;
 }
 
+footer > div > p {
+  text-align: center;
+  font-weight: bold;
+}
 h2 {
   color: #1b447f;
 }
@@ -182,24 +183,24 @@ margin-top: 2rem;
   border-left: .5rem solid #444444;
   border-right: .5rem solid #444444;
   font-weight: bold;
+  background-color: #ffffff;
 }
 .announcements {
   background-color: #444444;
   color: #ffffff;
   padding: 1rem;
   padding-top: 0rem;
-  height: 31rem;
+  margin-bottom: .5rem;
+  height: 20rem;
   overflow: auto;
 }
 .announcements > h2 {
   color: #FFFFFF;
 }
 h1 {
-  color: #1b447f;
-  text-decoration: underline;
-  text-decoration-color: #ecb722;
-  text-decoration-style: double;
+  color: #ecb722;;
   text-align: center;
+  border-bottom: .25rem solid #ecb722;
 
 }
 .about-grid{
@@ -216,12 +217,17 @@ h1 {
   grid-column-end: 11;
   grid-row-start: 1;
   grid-row-end: 2;
+  background-color: #444444;
 }
 .company {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row: 1;
-
+    grid-column: 1;
+    grid-row: 1;
+    background-color: #1b447f;
+    border: .5rem solid #ecb722;
+  }
+.scroll {
+  height: 25rem;
+  overflow: auto;
 }
 .staff-row {
   grid-column: 1;
@@ -236,7 +242,7 @@ h1 {
 }
 .staff {
 width: 31%;
-background-color: #1b447f;
+background-color: #03a3df;
 color: #ffffff;
 padding: 1rem;
 padding-left: 1.5rem;
@@ -255,7 +261,9 @@ ul.schedule>li:nth-child(odd) {
 
 h4 {
 text-align: center;
-border-bottom: .5rem solid #03a3df;
+border-bottom: .5rem solid #444444;
+padding-bottom: .5rem;
+font-size: 1.5rem;
 }
 h3 {
   border-bottom: .5rem solid #444444;
