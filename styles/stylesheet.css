@@ -11,7 +11,7 @@ secondary gray: #444444
 }
 header {
   padding: 2em;
-  padding-bottom: 0;
+  padding-bottom: 1em;
   background-color: #03a3df;
   background-size: auto;
   border-bottom: 1em solid #1b447f;
@@ -45,6 +45,7 @@ nav > div > p > a {
 .header1 {
   grid-column: 1;
   grid-row: 1/span2;
+  align-self: start;
 }
 .header2 {
   grid-column: 2;
@@ -166,16 +167,21 @@ aside > h2 {
   text-align: center;
 }
 .info > p > a {
-margin-top: 2em;
+  margin-top: 2em;
+  font-size: .75em;
   color: #ffffff;
   background-color: #1b447f;
   border: 0.5em solid #1b447f;
   border-radius: 2em;
+  padding-left: 0em;
+  padding-right: 0em;
 }
 .info > p > a:hover {
   background-color: #444444;
   border: .5em solid #444444;
   border-radius: 2em;
+  padding-left: 0em;
+  padding-right: 0em;
 }
 .upcoming {
   padding: 1em;
@@ -201,6 +207,7 @@ h1 {
   color: #ecb722;
   text-align: center;
   border-bottom: .25em solid #ecb722;
+  font-weight: bold;
 
 }
 .about-grid{
@@ -252,13 +259,15 @@ ul.schedule>li:nth-child(even) {
   color: #ffffff;
   padding-left: 1em;
   width: 90%;
+  font-size: 17px;
 }
 ul.schedule>li:nth-child(odd) {
   color: #444444;
   padding-left: 1em;
   border: 1px #444444 solid;
-  width: 90%;}
-
+  width: 90%;
+  font-size: 17px;
+}
 h4 {
 text-align: center;
 border-bottom: .5em solid #444444;
