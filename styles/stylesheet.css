@@ -247,13 +247,14 @@ h1 {
   width: 93%;
   flex-wrap: wrap;
   justify-content: space-around;
+  padding-left: 1.5em;
 }
 .staff {
 width: 31%;
 background-color: #03a3df;
 color: #ffffff;
 padding: 1em;
-padding-left: 1.5em;
+padding-left: 1.25em;
 }
 ul.schedule>li:nth-child(even) {
   background-color: #444444;
